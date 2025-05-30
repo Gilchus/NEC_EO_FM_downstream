@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch
 import timm
 import logging
-from enums import Weights, Backbones
+from utils.enums import Weights, Backbones
 from torchgeo.models import ViTSmall16_Weights, ResNet18_Weights, ResNet50_Weights
 
 

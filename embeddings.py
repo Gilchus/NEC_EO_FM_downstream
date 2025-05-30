@@ -8,9 +8,9 @@ import torch
 from torchgeo.models import ViTSmall16_Weights, ResNet18_Weights, ResNet50_Weights
 from data import E2SChallengeDataset, S2L2A_MEAN, S2L2A_STD, S2L1C_MEAN, S2L1C_STD, S1GRD_MEAN, S1GRD_STD
 from utils import create_submission_from_dict, test_submission, load_model
-from enums import Weights, Backbones
-from get_embeddings import generate_embeddings
-from embedding_resize_strats import max_pooling, min_pooling, mean_pooling, average_adaptive_pooling, cnn_max_pooling, cnn_mean_pooling, cnn_min_pooling, cnn_average_adaptive_pooling
+from utils.enums import Weights, Backbones
+from utils.get_embeddings import generate_embeddings
+from utils.embedding_resize_strats import max_pooling, min_pooling, mean_pooling, average_adaptive_pooling, cnn_max_pooling, cnn_mean_pooling, cnn_min_pooling, cnn_average_adaptive_pooling
 
 
 #TEST DATA PATH
